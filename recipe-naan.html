@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Naan Recipe</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+  <style>
+    body {
+      font-family: 'Poppins', sans-serif;
+      margin: 0;
+      padding: 0;
+      background: #fdf6f6;
+      color: #333;
+      text-align: center;
+    }
+
+    .navbar {
+      background: #4e2724;
+      padding: 15px 30px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    .navbar .logo {
+      font-size: 22px;
+      font-weight: 600;
+      color: #fff;
+    }
+    .navbar .nav-links {
+      list-style: none;
+      display: flex;
+      gap: 20px;
+    }
+    .navbar .nav-links a {
+      text-decoration: none;
+      color: #fff;
+      font-weight: 500;
+    }
+    .navbar .nav-links a:hover {
+      text-decoration: underline;
+    }
+
+    .recipe-hero {
+      padding: 40px 20px;
+    }
+    .recipe-hero img {
+      max-width: 300px;
+      border-radius: 15px;
+      box-shadow: 0px 4px 15px rgba(0,0,0,0.2);
+      margin-bottom: 20px;
+    }
+    .recipe-hero h1 {
+      font-size: 32px;
+      margin-bottom: 10px;
+      color: #4e2724;
+    }
+    .recipe-hero p {
+      font-size: 18px;
+      margin: 5px 0;
+    }
+
+    .recipe-details {
+      max-width: 700px;
+      margin: 30px auto;
+      background: #fff;
+      padding: 25px;
+      border-radius: 15px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+      text-align: left;
+    }
+    .recipe-details h2 {
+      color: #4e2724;
+      margin-bottom: 15px;
+    }
+    .recipe-details ul, 
+    .recipe-details ol {
+      margin: 0;
+      padding-left: 20px;
+    }
+    .back-btn {
+      margin: 40px 0;
+    }
+    .back-btn a {
+      background: #4e2724;
+      color: #fff;
+      text-decoration: none;
+      padding: 12px 25px;
+      border-radius: 25px;
+      transition: background 0.3s;
+    }
+    .back-btn a:hover {
+      background: #6d3935;
+    }
+
+    footer {
+      background: #4e2724;
+      color: #fff;
+      padding: 15px;
+      margin-top: 40px;
+    }
+  </style>
+</head>
+<body>
+  <!-- Navbar -->
+  <nav class="navbar">
+      <div class="logo">🍳 Recipe Explorer</div>
+      <ul class="nav-links">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="search.html">Search Recipes</a></li>
+          <li><a href="meal-planner.html">Meal Planner</a></li>
+          <li><a href="#">About</a></li>
+      </ul>
+  </nav>
+
+  <!-- Recipe Hero -->
+  <section class="recipe-hero">
+      <img src="images/naan.png" alt="Naan">
+      <h1>Naan</h1>
+      <p>Soft, fluffy Indian flatbread baked on a hot tawa or in a tandoor, often served with curries.</p>
+      <p><strong>Rating:</strong> ⭐⭐⭐⭐☆</p>
+  </section>
+
+  <!-- Ingredients -->
+  <section class="recipe-details">
+      <h2>Ingredients</h2>
+      <ul>
+          <li>2 cups all-purpose flour (maida)</li>
+          <li>1/2 cup plain yogurt</li>
+          <li>1 tsp sugar</li>
+          <li>1 tsp baking powder</li>
+          <li>1/2 tsp baking soda</li>
+          <li>1/2 tsp salt</li>
+          <li>2 tbsp oil or melted butter</li>
+          <li>Water (as required for kneading)</li>
+      </ul>
+  </section>
+
+  <!-- Steps -->
+  <section class="recipe-details">
+      <h2>Steps</h2>
+      <ol>
+          <li>Mix flour, sugar, baking powder, baking soda, and salt in a bowl.</li>
+          <li>Add yogurt and oil, then knead into a soft dough using water as needed.</li>
+          <li>Cover and let it rest for 2–3 hours.</li>
+          <li>Divide dough into balls and roll into oval/round naan shapes.</li>
+          <li>Heat a tawa and cook naan on one side until bubbles appear, then flip and cook until golden.</li>
+          <li>Brush with butter or ghee and serve hot with curry or dal.</li>
+      </ol>
+  </section>
+
+  <!-- Back -->
+  <div class="back-btn">
+      <a href="search.html">⬅ Back to Search</a>
+  </div>
+
+  <!-- Footer -->
+  <footer>
+      <p>© 2025 Recipe Explorer | Made with ❤️</p>
+  </footer>
+</body>
+</html>

@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Chocolate Cake Recipe</title>
+  <link rel="stylesheet" href="css/style.css">
+  <style>
+    body {
+      font-family: 'Poppins', sans-serif;
+      margin: 0;
+      padding: 0;
+      background: #fdfaf6;
+      color: #333;
+    }
+
+    /* Navbar */
+    .navbar {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 15px 40px;
+      background: #4e2724;
+      color: #fff;
+    }
+    .navbar .logo {
+      font-size: 1.5rem;
+      font-weight: bold;
+    }
+    .nav-links {
+      list-style: none;
+      display: flex;
+      gap: 20px;
+    }
+    .nav-links li a {
+      text-decoration: none;
+      color: #fff;
+      font-weight: 500;
+      transition: color 0.3s;
+    }
+    .nav-links li a:hover {
+      color: #f4c2b9;
+    }
+
+    /* Recipe Section */
+    .recipe-detail {
+      max-width: 700px;
+      margin: 50px auto;
+      background: #fff;
+      padding: 40px;
+      border-radius: 16px;
+      box-shadow: 0px 6px 15px rgba(0,0,0,0.1);
+      text-align: center;
+    }
+
+    .recipe-detail h1 {
+      font-size: 2rem;
+      color: #4e2724;
+      margin-bottom: 20px;
+    }
+
+    .recipe-detail img {
+      max-width: 100%;
+      border-radius: 12px;
+      margin: 20px 0;
+      box-shadow: 0px 4px 10px rgba(0,0,0,0.1);
+    }
+
+    .recipe-detail h2 {
+      font-size: 1.5rem;
+      margin-top: 30px;
+      color: #4e2724;
+    }
+
+    .recipe-detail ul,
+    .recipe-detail ol {
+      text-align: left;
+      margin: 20px auto;
+      max-width: 500px;
+      line-height: 1.8;
+    }
+
+    /* Button */
+    .btn {
+      display: inline-block;
+      background: #4e2724;
+      color: #fff;
+      padding: 12px 25px;
+      margin-top: 25px;
+      border-radius: 8px;
+      text-decoration: none;
+      font-weight: 500;
+      transition: background 0.3s;
+    }
+    .btn:hover {
+      background: #6d3d39;
+    }
+
+    /* Footer */
+    footer {
+      text-align: center;
+      padding: 20px;
+      background: #4e2724;
+      color: #fff;
+      margin-top: 50px;
+    }
+  </style>
+</head>
+<body>
+  <!-- Navbar -->
+  <nav class="navbar">
+    <div class="logo">🍳 Recipe Explorer</div>
+    <ul class="nav-links">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="search.html">Search Recipes</a></li>
+      <li><a href="meal-planner.html">Meal Planner</a></li>
+    </ul>
+  </nav>
+
+  <!-- Recipe Section -->
+  <section class="recipe-detail">
+    <h1>Chocolate Cake</h1>
+    <img src="images/recipe3.png" alt="Chocolate Cake" class="recipe-image">
+
+    <h2>Ingredients</h2>
+    <ul>
+      <li>1 and 1/2 cups all-purpose flour</li>
+      <li>1 cup sugar</li>
+      <li>1/2 cup cocoa powder</li>
+      <li>1 tsp baking powder</li>
+      <li>1/2 tsp baking soda</li>
+      <li>2 eggs</li>
+      <li>1/2 cup vegetable oil</li>
+      <li>1 cup milk</li>
+      <li>1 tsp vanilla extract</li>
+      <li>Pinch of salt</li>
+    </ul>
+
+    <h2>Instructions</h2>
+    <ol>
+      <li>Preheat oven to 180°C (350°F) and grease a cake pan.</li>
+      <li>In a bowl, mix flour, sugar, cocoa powder, baking powder, baking soda, and salt.</li>
+      <li>In another bowl, whisk eggs, milk, oil, and vanilla extract.</li>
+      <li>Combine wet and dry ingredients until smooth.</li>
+      <li>Pour batter into the cake pan and bake for 30–35 minutes.</li>
+      <li>Check with a toothpick — it should come out clean.</li>
+      <li>Cool before serving. Optionally, frost with chocolate ganache.</li>
+    </ol>
+
+    <!-- Back Button -->
+    <a href="index.html" class="btn">⬅ Back to Recipes</a>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2025 Recipe Explorer. All rights reserved.</p>
+  </footer>
+</body>
+</html>

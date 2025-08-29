@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Chapathi Recipe</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+  <style>
+    body {
+      font-family: 'Poppins', sans-serif;
+      margin: 0;
+      padding: 0;
+      background: #fdf6f6;
+      color: #333;
+      text-align: center;
+    }
+
+    .navbar {
+      background: #4e2724;
+      padding: 15px 30px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    .navbar .logo {
+      font-size: 22px;
+      font-weight: 600;
+      color: #fff;
+    }
+    .navbar .nav-links {
+      list-style: none;
+      display: flex;
+      gap: 20px;
+    }
+    .navbar .nav-links a {
+      text-decoration: none;
+      color: #fff;
+      font-weight: 500;
+    }
+    .navbar .nav-links a:hover {
+      text-decoration: underline;
+    }
+
+    .recipe-hero {
+      padding: 40px 20px;
+    }
+    .recipe-hero img {
+      max-width: 300px;
+      border-radius: 15px;
+      box-shadow: 0px 4px 15px rgba(0,0,0,0.2);
+      margin-bottom: 20px;
+    }
+    .recipe-hero h1 {
+      font-size: 32px;
+      margin-bottom: 10px;
+      color: #4e2724;
+    }
+    .recipe-hero p {
+      font-size: 18px;
+      margin: 5px 0;
+    }
+
+    .recipe-details {
+      max-width: 700px;
+      margin: 30px auto;
+      background: #fff;
+      padding: 25px;
+      border-radius: 15px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+      text-align: left;
+    }
+    .recipe-details h2 {
+      color: #4e2724;
+      margin-bottom: 15px;
+    }
+    .recipe-details ul, 
+    .recipe-details ol {
+      margin: 0;
+      padding-left: 20px;
+    }
+    .back-btn {
+      margin: 40px 0;
+    }
+    .back-btn a {
+      background: #4e2724;
+      color: #fff;
+      text-decoration: none;
+      padding: 12px 25px;
+      border-radius: 25px;
+      transition: background 0.3s;
+    }
+    .back-btn a:hover {
+      background: #6d3935;
+    }
+
+    footer {
+      background: #4e2724;
+      color: #fff;
+      padding: 15px;
+      margin-top: 40px;
+    }
+  </style>
+</head>
+<body>
+  <!-- Navbar -->
+  <nav class="navbar">
+      <div class="logo">🍳 Recipe Explorer</div>
+      <ul class="nav-links">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="search.html">Search Recipes</a></li>
+          <li><a href="meal-planner.html">Meal Planner</a></li>
+          <li><a href="#">About</a></li>
+      </ul>
+  </nav>
+
+  <!-- Recipe Hero -->
+  <section class="recipe-hero">
+      <img src="images/chapathi.png" alt="Chapathi">
+      <h1>Chapathi</h1>
+      <p>Soft and healthy Indian flatbread made from whole wheat flour, served with curries and sabzis.</p>
+      <p><strong>Rating:</strong> ⭐⭐⭐⭐☆</p>
+  </section>
+
+  <!-- Ingredients -->
+  <section class="recipe-details">
+      <h2>Ingredients</h2>
+      <ul>
+          <li>2 cups whole wheat flour (atta)</li>
+          <li>1/2 tsp salt</li>
+          <li>3/4 cup water (adjust as needed)</li>
+          <li>1 tsp oil or ghee (optional)</li>
+      </ul>
+  </section>
+
+  <!-- Steps -->
+  <section class="recipe-details">
+      <h2>Steps</h2>
+      <ol>
+          <li>In a bowl, mix wheat flour and salt.</li>
+          <li>Add water gradually and knead into a soft, smooth dough.</li>
+          <li>Cover and rest the dough for 20–30 minutes.</li>
+          <li>Divide into small balls and roll into thin circles using a rolling pin.</li>
+          <li>Heat a tawa (flat pan) and cook chapathis on both sides until golden spots appear.</li>
+          <li>Optionally apply ghee/butter and serve hot with curry or sabzi.</li>
+      </ol>
+  </section>
+
+  <!-- Back -->
+  <div class="back-btn">
+      <a href="search.html">⬅ Back to Search</a>
+  </div>
+
+  <!-- Footer -->
+  <footer>
+      <p>© 2025 Recipe Explorer | Made with ❤️</p>
+  </footer>
+</body>
+</html>

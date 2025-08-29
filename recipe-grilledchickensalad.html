@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Grilled Chicken Salad Recipe</title>
+  <link rel="stylesheet" href="css/style.css">
+  <style>
+    body {
+      font-family: 'Poppins', sans-serif;
+      margin: 0;
+      padding: 0;
+      background: #fdfaf6;
+      color: #333;
+    }
+
+    /* Navbar */
+    .navbar {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 15px 40px;
+      background: #4e2724;
+      color: #fff;
+    }
+    .navbar .logo {
+      font-size: 1.5rem;
+      font-weight: bold;
+    }
+    .nav-links {
+      list-style: none;
+      display: flex;
+      gap: 20px;
+    }
+    .nav-links li a {
+      text-decoration: none;
+      color: #fff;
+      font-weight: 500;
+      transition: color 0.3s;
+    }
+    .nav-links li a:hover {
+      color: #f4c2b9;
+    }
+
+    /* Recipe Section */
+    .recipe-detail {
+      max-width: 700px;
+      margin: 50px auto;
+      background: #fff;
+      padding: 40px;
+      border-radius: 16px;
+      box-shadow: 0px 6px 15px rgba(0,0,0,0.1);
+      text-align: center;
+    }
+
+    .recipe-detail h1 {
+      font-size: 2rem;
+      color: #4e2724;
+      margin-bottom: 20px;
+    }
+
+    .recipe-detail img {
+      max-width: 100%;
+      border-radius: 12px;
+      margin: 20px 0;
+      box-shadow: 0px 4px 10px rgba(0,0,0,0.1);
+    }
+
+    .recipe-detail h2 {
+      font-size: 1.5rem;
+      margin-top: 30px;
+      color: #4e2724;
+    }
+
+    .recipe-detail ul,
+    .recipe-detail ol {
+      text-align: left;
+      margin: 20px auto;
+      max-width: 500px;
+      line-height: 1.8;
+    }
+
+    /* Button */
+    .btn {
+      display: inline-block;
+      background: #4e2724;
+      color: #fff;
+      padding: 12px 25px;
+      margin-top: 25px;
+      border-radius: 8px;
+      text-decoration: none;
+      font-weight: 500;
+      transition: background 0.3s;
+    }
+    .btn:hover {
+      background: #6d3d39;
+    }
+
+    /* Footer */
+    footer {
+      text-align: center;
+      padding: 20px;
+      background: #4e2724;
+      color: #fff;
+      margin-top: 50px;
+    }
+  </style>
+</head>
+<body>
+  <!-- Navbar -->
+  <nav class="navbar">
+    <div class="logo">🍳 Recipe Explorer</div>
+    <ul class="nav-links">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="search.html">Search Recipes</a></li>
+      <li><a href="meal-planner.html">Meal Planner</a></li>
+    </ul>
+  </nav>
+
+  <!-- Recipe Section -->
+  <section class="recipe-detail">
+    <h1>Grilled Chicken Salad</h1>
+    <img src="images/recipe2.png" alt="Grilled Chicken Salad" class="recipe-image">
+
+    <h2>Ingredients</h2>
+    <ul>
+      <li>2 boneless chicken breasts</li>
+      <li>Mixed salad greens</li>
+      <li>Cherry tomatoes (halved)</li>
+      <li>1 cucumber (sliced)</li>
+      <li>Olive oil</li>
+      <li>Salt and black pepper (to taste)</li>
+      <li>Lemon juice or salad dressing</li>
+    </ul>
+
+    <h2>Instructions</h2>
+    <ol>
+      <li>Season chicken breasts with olive oil, salt, and black pepper.</li>
+      <li>Grill the chicken until fully cooked (about 6–7 minutes per side).</li>
+      <li>Let the chicken rest, then slice it into strips.</li>
+      <li>Arrange salad greens, tomatoes, and cucumber in a bowl.</li>
+      <li>Top with grilled chicken slices.</li>
+      <li>Drizzle with lemon juice or your favorite dressing and serve fresh.</li>
+    </ol>
+
+    <!-- Back Button -->
+    <a href="index.html" class="btn">⬅ Back to Recipes</a>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2025 Recipe Explorer. All rights reserved.</p>
+  </footer>
+</body>
+</html>
